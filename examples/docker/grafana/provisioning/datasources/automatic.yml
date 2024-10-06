@@ -1,0 +1,8 @@
+datasources:
+  - name: prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    basicAuth: false
+    jsonData:
+      tlsSkipVerify: true
